@@ -201,7 +201,7 @@ st.markdown("""
 
 # 3. Encabezado Corporativo
 col_logo, col_titulo = st.columns([1, 5])
-logo_path = r"C:\Users\Ana\Documents\Castillo\Logo Castillo.jpg"
+logo_path = rhttps://www.google.com/imgres?q=logo%20castillo%20empresa&imgurl=https%3A%2F%2Fmedia.licdn.com%2Fdms%2Fimage%2Fv2%2FC4E0BAQFNK9h4MowQ8g%2Fcompany-logo_200_200%2Fcompany-logo_200_200%2F0%2F1630585238074%3Fe%3D2147483647%26v%3Dbeta%26t%3DG8LMT500XIfk1i-Nw0_4LhO3614Sk2d0hwArS_GvQa8&imgrefurl=https%3A%2F%2Far.linkedin.com%2Fcompany%2Fcastillo-sacifia&docid=S84mxtHzVyPq2M&tbnid=5JEentPxDRcl6M&vet=12ahUKEwiphPX25dKWAxWZqJUCHaH0FZEQnPAOegQINxAA..i&w=200&h=200&hcb=2&ved=2ahUKEwiphPX25dKWAxWZqJUCHaH0FZEQnPAOegQINxAA
 
 with col_logo:
     if os.path.exists(logo_path):
