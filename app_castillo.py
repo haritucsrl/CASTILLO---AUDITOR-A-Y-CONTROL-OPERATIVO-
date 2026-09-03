@@ -201,12 +201,12 @@ st.markdown("""
 
 # 3. Encabezado Corporativo
 col_logo, col_titulo = st.columns([1, 5])
-logo_path = rhttps://drive.google.com/file/d/1uCri7BJnR9_rYxwMdl2SHp38FLlqGNtG/view?usp=drivesdk
+logo_path = "https://lh3.googleusercontent.com/d/1uCri7BJnR9_rYxwMdl2SHp38FLlqGNtG"
 with col_logo:
-    if os.path.exists(logo_path):
+    try:
         st.image(logo_path, width=130)
-    else:
-        st.markdown("<h2 style='font-family: \"Cinzel\", serif; color: #13293D; font-weight: 900; letter-spacing: 2px;'>CASTILLO</h2>", unsafe_allow_html=True)
+    except:
+        st.markdown("<h2 style='font-family: \"Cinzel\", serif; color: #13293D; font-weight: 900;'>CASTILLO S.A.</h2>", unsafe_allow_html=True)
 
 with col_titulo:
     st.markdown("<h1 style='color: #13293D; font-size: 26px; font-weight: 800; margin-bottom: 0px;'>CASTILLO S.A. — AUDITORÍA Y CONTROL OPERATIVO</h1>", unsafe_allow_html=True)
